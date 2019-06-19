@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>房屋租赁网站 - 后台</title>
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+	<script src="js/login.js"></script>
+</head>
+<body>
+
+<div class="login_bg">
+		<div id="changeLogin"><a href="index.html">前台登录</a></div>
+	<div class="login_logo">
+		<img src="image/logo-1.png">
+		<div id="admin.html"></div>
+		<h1>后 台 管 理 系 统</h1>
+	</div>
+	<form action="admin.jsp" method="post" class="form1" onsubmit="checkLogin()">
+		<table>
+
+			<tr>
+				<td id="tdFloat">admin:</td>
+				<td><input type="text" name="username" id="username" onblur="checkname()"></td>
+				<td id="tipUserName"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat">root:</td>
+				<td><input type="password" name="passwd" id="passwd" onblur="checkpasswd()"></td>
+				<td id="tipPassWord"></td>
+			</tr>
+			<tr>
+
+				<td colspan="2"><input type="submit" name="adminSubmit" id="adminSubmit" value="登录"/></td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+</body>
+</html>

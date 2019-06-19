@@ -1,0 +1,283 @@
+body{
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+	background-color: rgb(44,42,43);
+	background-size: cover;
+	text-align:center;
+}
+
+#blackbottom{
+	background-color: rgb(255,251,240);
+	width: 1335px;
+	margin:0 auto;
+	text-align:center;
+	height:100%;
+	border:0px;
+}
+#content{
+
+  background-color: rgb(255,251,240);
+}
+h1{
+	height:100px;
+	text-align: center;
+	line-height:100px;
+	font-size: 60px;
+	color:white;
+	background-color:black;
+}
+
+hr{
+	margin-top: 30px;
+	border:1px solid;
+    margin-bottom: 30px;
+}
+#fieldset{
+	float:;
+	background-color: rgb(255,251,240);
+	border:0px;
+	text-align:center;
+	margin: 0 auto;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+legend{
+	color:white;
+	background-color: red;
+	font-family: "楷体";
+	font-size: 20px;
+	float:left;
+}
+#tdFloat{
+
+	text-align: right;
+	color:black;
+}
+
+input{
+	height: 32px;
+	width: 150px;
+	color:;
+	background-color: ;
+	border:1px solid orange;
+}
+
+#label_left{
+	float: left;
+}
+
+#td_right{
+	width:150px;
+	text-align: right;
+	line-height: 50px;
+	color: ;
+	margin-right:0px;
+}
+
+#page{
+
+	text-align: center;
+}
+
+table{
+	float:right;
+	margin-top: 0px;
+}
+table,td{
+	border:0px;
+}
+
+#welcome{
+	float:right;
+	background-color: rgb(37,32,42);
+	color:red;
+}
+
+#fieldset_link{
+	width: 60%;
+	height: 100px;
+	background-color: rgb(191,171,134);
+	border:0px solid red;
+	margin: 0 auto;
+}
+#link{
+	width: 80%;
+	height:100%;
+	color:#6778;
+	background:white;
+	border-color: rgb(231,72,81);
+}
+
+#linkboard{
+	background-color: rgb(191,171,134);
+	color:black;
+	margin-top: 38px;
+}
+#linkSend{
+	width:70px;
+	height:40px;
+	background-color: #FF32329F;
+	color:white;
+	border:2px solid #FF32329F;
+}
+
+#commentFieldset{
+
+	height: 100%;
+	background-color: rgb(255,251,240);
+	border:0px;
+	margin: 3px auto;
+}
+
+#image{
+	border:0;
+	margin-top: 0px;
+	width:40%;
+	height:330px;
+	float: right;
+}
+
+#newComment{
+	background-color: rgb(255,251,240);
+	color:red;
+	border: 2px solid red;
+	border-bottom:0px;
+}
+
+#front{
+	border:1px solid #ccc;
+	background-color:#f0f0f0;
+	padding:3px 10px;
+	margin:0px 3px;
+/*	margin-right:0px;
+	background-color: rgb(56,139,255)!important;
+	color:white;
+	border: 0px;
+	width:125px;*/
+}
+
+#later{
+	border:1px solid #ccc;
+	background-color:#f0f0f0;
+	padding:3px 10px;
+	margin:0px 3px;
+/*
+	background-color: rgb(56,139,255)!important;
+	color:white;
+	border: 0px;
+	width:125px;*/
+}
+
+#pageNum{
+	display: inline-block;
+	color:black;
+}
+
+
+#commentDisplay{
+
+	width:100%;
+
+}
+#floorName{
+	height:30px;
+	color:rgb(234,87,108);
+}
+#floorContent{
+	height:50px;
+	border-bottom:1px dashed grey;
+	line-height:50px;
+}
+
+#floorName{
+	width:100px;
+}
+#submit2{
+	width:50px;
+	border:0px;
+	background-color:rgb(231,72,81);
+	display:inline-block;
+}
+
+form{
+	border:0px;
+}
+
+#update{
+	background-color:green;
+	width: 80px;
+    color: white;
+	border:0px;
+	margin-left:10px;
+}
+#addHouse{
+	margin-left:20px;
+	background-color:green;	
+	width: 80px;
+	color: white;
+	border:0px;
+}
+
+.pagelist a{
+	border:1px solid #ccc;
+	background-color:#f0f0f0;
+	padding:3px 10px;
+	margin:0px 3px;
+
+}
+
+.pagelist{
+	background-color: rgb(255,251,240);
+	height:35px;
+}
+
+.pagelist span{
+	padding:3px 11px;
+	margin:0px 3px;
+}
+
+.searchB{
+	padding:0px;
+	background-color: #3385ff;
+	width:100px;
+	height:34px;
+	line-height:34px;
+	color:white;
+	border:0px;
+	font-size:14px;
+	margin-left:0px;
+}
+
+#searchT{
+	margin:0px;
+	position: relative;
+	width:300px;
+	height:33px;
+	margin-right:0px;
+	border-right-width:0px;
+	border-color:#b8b8b8;
+}
+
+#searchD{
+	text-align:left;
+}
+
+
+#timeDisplay{
+	margin-left:60px;
+	width:200px;
+	height:30px;
+	color:rgb(234,87,108);
+}
+
+#del{
+	background-color:green;
+	width: 80px;
+    color: white;
+	border:0px;
+	margin-left:10px;
+}

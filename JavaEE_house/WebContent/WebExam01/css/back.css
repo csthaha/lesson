@@ -1,0 +1,64 @@
+body{
+	margin:0 auto;
+
+	/*rbackground-color: rgb(174,99,44); /*rgb(40,43,35);*/
+	/*background:url("../image/code.jpg");*/
+}
+
+#welcome{
+	text-align:right;
+	color:red;
+}
+
+#manageUser{
+	text-align:center;
+	border:2px solid rgb(94,216,239);
+
+}
+
+#manageComment{
+	text-align:center;
+	border:2px solid rgb(94,216,239);
+
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	background-color:white !important;
+}
+
+table,td{
+
+	border:1px solid black;
+}
+
+td{
+	height:50px;
+
+}
+
+#page{
+	margin-bottom: 0px;
+}
+
+legend{
+	color:rgb(195,102,41);
+}
+
+.pagelist a{
+	border:1px solid #ccc;
+	background-color:#f0f0f0;
+	padding:3px 10px;
+	margin:0px 3px;
+
+}
+
+.pagelist{
+	height:35px;
+}
+
+.pagelist span{
+	padding:3px 11px;
+	margin:0px 3px;
+}

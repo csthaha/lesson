@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>房屋租赁网站 - 登录</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+		<script src="js/login.js"></script>
+</head>
+<body>
+
+<div class="login_bg">
+	<div class="login_logo">
+		<img src="image/logo-1.png">
+		<a id="admin" href="admin.html" title="后台管理">后台管理</a>
+		<h1>小 Dong 房 屋 租 赁 网 站</h1>
+	</div>
+	<form action="index.jsp" method="post" class="form1" >
+		<table>
+
+			<tr>
+				<td id="tdFloat">用户名:</td>
+				<td><input type="text" name="username" id="username" onblur="checkname()"></td>
+				<td id="tipUserName"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat">密&nbsp;&nbsp;&nbsp;码:</td>
+				<td><input type="password" name="passwd" id="passwd" onblur="checkpasswd()"></td>
+				<td id="tipPassWord"></td>
+			</tr>
+			<tr>
+
+				<td id="tdFloat"><input type="button" name="register" id="register" value="注册" onclick="window.location.href='main/register.html'"/></td>
+				<td><input type="submit" name="submit1" id="submit" value="登录" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="main\pwd.jsp">忘记密码?</a></td>
+
+			</tr>
+		</table>
+	</form>
+</div>
+	
+</body>
+</html>

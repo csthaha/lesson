@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>房屋租赁网站 - 注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<script type="text/javascript" src="../js/login.js"></script>
+</head>
+<body>
+<div class="login_bg">
+	<div class="login_logo">
+		<img src="image/logo-1.png">
+		<h1>小 Dong 房 屋 租 赁 网 站</h1>
+	</div>
+<fieldset>
+		<legend>用户注册表</legend>
+		<form action="registerSuccess.jsp" method="post" class="form1" onsubmit="checkRegister()">
+		<table>	
+			<tr>
+				<td id="tdFloat">用户名:</td>
+				<td><input type="text" name="userName" id="username" onblur="checkname()"></td>
+				<td id="tipUserName"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat">密码:</td>
+				<td><input type="password" name="passwd" id="passwd" onblur="checkpasswd()"></td>
+				<td id="tipPassWord"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat">身份证号:</td>
+				<td><input type="text" name="userId" id="userId" onblur="checkUserId()"></td>
+				<td id="tipUserId"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat">联系方式:</td>
+				<td><input type="text" name="phone" id="phone" onblur="checkPhone()"></td>
+				<td id="tipPhone"></td>
+			</tr>
+			<tr>
+				<td id="tdFloat" colspan="2"><input type="button" name="back" id="backout" value="返回" onclick="window.location.href='../index.html'"/>
+				<input type="submit" name="register" id="register" value="注册" /></td>
+			</tr>
+		</table>
+	</form>
+</fieldset>
+</div>
+</body>
+</html>
